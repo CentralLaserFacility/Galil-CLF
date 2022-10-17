@@ -1,0 +1,1504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>galil_motor_extras</name>
+  <x>609</x>
+  <y>77</y>
+  <width>456</width>
+  <height>672</height>
+  <background_color>
+    <color red="187" green="187" blue="187">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <grid_step_x>5</grid_step_x>
+  <widget type="rectangle" version="2.0.0">
+    <name>rectangle #6</name>
+    <x>114</x>
+    <y>3</y>
+    <width>200</width>
+    <height>28</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="0" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #9</name>
+    <text>Galil motor extras</text>
+    <x>116</x>
+    <y>11</y>
+    <width>193</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #12</name>
+    <pv_name>$(P)$(M)_MTRTYPE_STATUS</pv_name>
+    <x>319</x>
+    <y>107</y>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="combo" version="2.0.0">
+    <name>menu #16</name>
+    <pv_name>$(P)$(M)_MTRTYPE_CMD</pv_name>
+    <x>174</x>
+    <y>102</y>
+    <width>135</width>
+    <height>20</height>
+    <foreground_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #19</name>
+    <text>Motor type</text>
+    <x>2</x>
+    <y>105</y>
+    <width>97</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #22</name>
+    <text>Main encoder</text>
+    <x>2</x>
+    <y>125</y>
+    <width>97</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="combo" version="2.0.0">
+    <name>menu #25</name>
+    <pv_name>$(P)$(M)_MENCTYPE_CMD</pv_name>
+    <x>174</x>
+    <y>122</y>
+    <width>135</width>
+    <height>20</height>
+    <foreground_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #28</name>
+    <pv_name>$(P)$(M)_MENCTYPE_STATUS</pv_name>
+    <x>319</x>
+    <y>127</y>
+    <width>200</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #32</name>
+    <pv_name>$(P)$(M)_AENCTYPE_STATUS</pv_name>
+    <x>319</x>
+    <y>147</y>
+    <width>200</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="combo" version="2.0.0">
+    <name>menu #36</name>
+    <pv_name>$(P)$(M)_AENCTYPE_CMD</pv_name>
+    <x>174</x>
+    <y>142</y>
+    <width>135</width>
+    <height>18</height>
+    <foreground_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #39</name>
+    <text>Auxiliary encoder</text>
+    <x>2</x>
+    <y>145</y>
+    <width>97</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #42</name>
+    <text>Motor/limits consistent</text>
+    <x>2</x>
+    <y>88</y>
+    <width>97</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #45</name>
+    <pv_name>$(P)$(M)_LIMITCONSISTENT_STATUS</pv_name>
+    <x>174</x>
+    <y>88</y>
+    <width>120</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #49</name>
+    <pv_name>$(P)$(M)_MCONN_STATUS</pv_name>
+    <x>174</x>
+    <y>70</y>
+    <width>120</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #53</name>
+    <text>Motor connected</text>
+    <x>2</x>
+    <y>70</y>
+    <width>97</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #56</name>
+    <text>Motorname</text>
+    <x>2</x>
+    <y>52</y>
+    <width>97</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #59</name>
+    <text>Motor axis</text>
+    <x>2</x>
+    <y>33</y>
+    <width>97</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #62</name>
+    <pv_name>$(P)$(M)_AXIS_STATUS</pv_name>
+    <x>174</x>
+    <y>34</y>
+    <width>58</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #66</name>
+    <pv_name>$(P)$(M).NAME</pv_name>
+    <x>174</x>
+    <y>52</y>
+    <width>120</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #70</name>
+    <text>Wrong limit protection</text>
+    <x>2</x>
+    <y>161</y>
+    <width>89</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="choice" version="2.0.0">
+    <name>choice button #73</name>
+    <pv_name>$(P)$(M)_WLP_CMD</pv_name>
+    <x>174</x>
+    <y>159</y>
+    <width>135</width>
+    <height>18</height>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <items>
+      <item>Item 1</item>
+      <item>Item 2</item>
+    </items>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #76</name>
+    <pv_name>$(P)$(M)_WLP_STATUS</pv_name>
+    <x>319</x>
+    <y>163</y>
+    <width>30</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #80</name>
+    <pv_name>$(P)$(M)_WLPSTOP_STATUS</pv_name>
+    <x>351</x>
+    <y>163</y>
+    <width>58</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #84</name>
+    <pv_name>$(P)$(M)_ON_STATUS</pv_name>
+    <x>319</x>
+    <y>180</y>
+    <width>58</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="choice" version="2.0.0">
+    <name>choice button #88</name>
+    <pv_name>$(P)$(M)_ON_CMD</pv_name>
+    <x>174</x>
+    <y>176</y>
+    <width>135</width>
+    <height>18</height>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <items>
+      <item>Item 1</item>
+      <item>Item 2</item>
+    </items>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #91</name>
+    <text>Motor amplifier</text>
+    <x>2</x>
+    <y>179</y>
+    <width>89</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #94</name>
+    <pv_name>$(P)$(M)_AUTOONOFF_STATUS</pv_name>
+    <x>319</x>
+    <y>197</y>
+    <width>81</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="choice" version="2.0.0">
+    <name>choice button #98</name>
+    <pv_name>$(P)$(M)_AUTOONOFF_CMD</pv_name>
+    <x>174</x>
+    <y>194</y>
+    <width>135</width>
+    <height>18</height>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <items>
+      <item>Item 1</item>
+      <item>Item 2</item>
+    </items>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #101</name>
+    <text>Amp auto on/off</text>
+    <x>2</x>
+    <y>196</y>
+    <width>69</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #104</name>
+    <pv_name>$(P)$(M)_ONDELAY_MON</pv_name>
+    <x>319</x>
+    <y>215</y>
+    <width>81</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>text entry #108</name>
+    <pv_name>$(P)$(M)_ONDELAY_SP</pv_name>
+    <x>174</x>
+    <y>212</y>
+    <width>135</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #112</name>
+    <text>Amp on/brake off delay</text>
+    <x>2</x>
+    <y>214</y>
+    <width>69</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #115</name>
+    <pv_name>$(P)$(M)_OFFDELAY_MON</pv_name>
+    <x>319</x>
+    <y>233</y>
+    <width>81</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>text entry #119</name>
+    <pv_name>$(P)$(M)_OFFDELAY_SP</pv_name>
+    <x>174</x>
+    <y>230</y>
+    <width>135</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #123</name>
+    <text>Amp off delay</text>
+    <x>2</x>
+    <y>233</y>
+    <width>69</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #126</name>
+    <pv_name>$(P)$(M)_BRAKEONDELAY_MON</pv_name>
+    <x>319</x>
+    <y>251</y>
+    <width>81</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>text entry #130</name>
+    <pv_name>$(P)$(M)_BRAKEONDELAY_SP</pv_name>
+    <x>174</x>
+    <y>248</y>
+    <width>135</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #134</name>
+    <text>Brake on delay</text>
+    <x>2</x>
+    <y>251</y>
+    <width>69</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #137</name>
+    <text>Motor brake on/off port</text>
+    <x>2</x>
+    <y>269</y>
+    <width>69</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>text entry #140</name>
+    <pv_name>$(P)$(M)_BRAKEPORT_SP</pv_name>
+    <x>174</x>
+    <y>266</y>
+    <width>135</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #144</name>
+    <pv_name>$(P)$(M)_BRAKE_STATUS</pv_name>
+    <x>338</x>
+    <y>269</y>
+    <width>81</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #148</name>
+    <pv_name>$(P)$(M)_BRAKEPORT_MON</pv_name>
+    <x>319</x>
+    <y>269</y>
+    <width>10</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #152</name>
+    <pv_name>$(P)$(M)_AUTOBRAKE_STATUS</pv_name>
+    <x>319</x>
+    <y>287</y>
+    <width>81</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="choice" version="2.0.0">
+    <name>choice button #156</name>
+    <pv_name>$(P)$(M)_AUTOBRAKE_CMD</pv_name>
+    <x>174</x>
+    <y>284</y>
+    <width>135</width>
+    <height>18</height>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <items>
+      <item>Item 1</item>
+      <item>Item 2</item>
+    </items>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #159</name>
+    <text>Motor brake auto on/off</text>
+    <x>2</x>
+    <y>287</y>
+    <width>69</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #162</name>
+    <text>Motor stop delay</text>
+    <x>2</x>
+    <y>305</y>
+    <width>69</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>text entry #165</name>
+    <pv_name>$(P)$(M)_STOPDELAY_SP</pv_name>
+    <x>174</x>
+    <y>302</y>
+    <width>135</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #169</name>
+    <pv_name>$(P)$(M)_STOPDELAY_MON</pv_name>
+    <x>319</x>
+    <y>305</y>
+    <width>81</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #173</name>
+    <pv_name>$(P)$(M)_OFFONERR_STATUS</pv_name>
+    <x>319</x>
+    <y>325</y>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="combo" version="2.0.0">
+    <name>menu #177</name>
+    <pv_name>$(P)$(M)_OFFONERR_CMD</pv_name>
+    <x>174</x>
+    <y>321</y>
+    <width>135</width>
+    <height>20</height>
+    <foreground_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #180</name>
+    <text>Motor off on error</text>
+    <x>2</x>
+    <y>324</y>
+    <width>97</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #183</name>
+    <text>Error limit (cts)</text>
+    <x>2</x>
+    <y>343</y>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>text entry #186</name>
+    <pv_name>$(P)$(M)_ERRLIMIT_SP</pv_name>
+    <x>174</x>
+    <y>339</y>
+    <width>135</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #190</name>
+    <pv_name>$(P)$(M)_ERRLIMIT_MON</pv_name>
+    <x>319</x>
+    <y>344</y>
+    <width>58</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #194</name>
+    <pv_name>$(P)$(M)_ERR_MON</pv_name>
+    <x>319</x>
+    <y>362</y>
+    <width>58</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #198</name>
+    <text>Error (cts)</text>
+    <x>2</x>
+    <y>360</y>
+    <width>97</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #201</name>
+    <text>Encoder stall</text>
+    <x>2</x>
+    <y>378</y>
+    <width>69</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #204</name>
+    <pv_name>$(P)$(M)_ESTALL_STATUS</pv_name>
+    <x>319</x>
+    <y>379</y>
+    <width>81</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #208</name>
+    <text>Encoder stall time (s)</text>
+    <x>2</x>
+    <y>398</y>
+    <width>69</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>text entry #211</name>
+    <pv_name>$(P)$(M)_ESTALLTIME_SP</pv_name>
+    <x>175</x>
+    <y>395</y>
+    <width>135</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #215</name>
+    <pv_name>$(P)$(M)_ESTALLTIME_MON</pv_name>
+    <x>319</x>
+    <y>396</y>
+    <width>81</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #219</name>
+    <text>Encoder tolerance (cts)</text>
+    <x>2</x>
+    <y>416</y>
+    <width>69</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>text entry #222</name>
+    <pv_name>$(P)$(M)_ENC_TOLERANCE_SP</pv_name>
+    <x>175</x>
+    <y>413</y>
+    <width>135</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #226</name>
+    <pv_name>$(P)$(M)_ENC_TOLERANCE_MON</pv_name>
+    <x>319</x>
+    <y>414</y>
+    <width>81</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="combo" version="2.0.0">
+    <name>menu #230</name>
+    <pv_name>$(P)$(M)_HOMEALLOWED_CMD</pv_name>
+    <x>176</x>
+    <y>489</y>
+    <width>135</width>
+    <height>20</height>
+    <foreground_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #233</name>
+    <text>Home allowed</text>
+    <x>2</x>
+    <y>491</y>
+    <width>69</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #236</name>
+    <pv_name>$(P)$(M)_HOMEALLOWED_STATUS</pv_name>
+    <x>320</x>
+    <y>492</y>
+    <width>81</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #240</name>
+    <text>Step smooth factor</text>
+    <x>2</x>
+    <y>434</y>
+    <width>89</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>text entry #243</name>
+    <pv_name>$(P)$(M)_STEPSMOOTH_SP</pv_name>
+    <x>175</x>
+    <y>432</y>
+    <width>135</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #247</name>
+    <pv_name>$(P)$(M)_STEPSMOOTH_MON</pv_name>
+    <x>320</x>
+    <y>433</y>
+    <width>58</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #251</name>
+    <text>EGU after limit</text>
+    <x>2</x>
+    <y>452</y>
+    <width>69</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>text entry #254</name>
+    <pv_name>$(P)$(M)_EGUAFTLIMIT_SP</pv_name>
+    <x>175</x>
+    <y>450</y>
+    <width>135</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #258</name>
+    <pv_name>$(P)$(M)_EGUAFTLIMIT_MON</pv_name>
+    <x>320</x>
+    <y>451</y>
+    <width>81</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #262</name>
+    <text>Limit disable</text>
+    <x>2</x>
+    <y>471</y>
+    <width>69</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="combo" version="2.0.0">
+    <name>menu #265</name>
+    <pv_name>$(P)$(M)_LIMITDISABLE_CMD</pv_name>
+    <x>176</x>
+    <y>469</y>
+    <width>135</width>
+    <height>20</height>
+    <foreground_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #268</name>
+    <pv_name>$(P)$(M)_LIMITDISABLE_STATUS</pv_name>
+    <x>320</x>
+    <y>472</y>
+    <width>81</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #272</name>
+    <text>Use limits as home</text>
+    <x>2</x>
+    <y>511</y>
+    <width>69</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="choice" version="2.0.0">
+    <name>choice button #275</name>
+    <pv_name>$(P)$(M)_ULAH_CMD</pv_name>
+    <x>176</x>
+    <y>509</y>
+    <width>135</width>
+    <height>18</height>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <items>
+      <item>Item 1</item>
+      <item>Item 2</item>
+    </items>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #278</name>
+    <pv_name>$(P)$(M)_ULAH_STATUS</pv_name>
+    <x>321</x>
+    <y>511</y>
+    <width>81</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #282</name>
+    <text>Use index during home</text>
+    <x>2</x>
+    <y>546</y>
+    <width>69</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="choice" version="2.0.0">
+    <name>choice button #285</name>
+    <pv_name>$(P)$(M)_UINDEX_CMD</pv_name>
+    <x>175</x>
+    <y>544</y>
+    <width>135</width>
+    <height>18</height>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <items>
+      <item>Item 1</item>
+      <item>Item 2</item>
+    </items>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #288</name>
+    <pv_name>$(P)$(M)_UINDEX_STATUS</pv_name>
+    <x>320</x>
+    <y>546</y>
+    <width>81</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #292</name>
+    <text>Use switch during home</text>
+    <x>2</x>
+    <y>529</y>
+    <width>69</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="choice" version="2.0.0">
+    <name>choice button #295</name>
+    <pv_name>$(P)$(M)_USWITCH_CMD</pv_name>
+    <x>175</x>
+    <y>527</y>
+    <width>135</width>
+    <height>18</height>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <items>
+      <item>Item 1</item>
+      <item>Item 2</item>
+    </items>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #298</name>
+    <pv_name>$(P)$(M)_USWITCH_STATUS</pv_name>
+    <x>320</x>
+    <y>529</y>
+    <width>81</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #302</name>
+    <text>Jog after home</text>
+    <x>2</x>
+    <y>564</y>
+    <width>69</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="choice" version="2.0.0">
+    <name>choice button #305</name>
+    <pv_name>$(P)$(M)_JAH_CMD</pv_name>
+    <x>175</x>
+    <y>562</y>
+    <width>135</width>
+    <height>18</height>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <items>
+      <item>Item 1</item>
+      <item>Item 2</item>
+    </items>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #308</name>
+    <pv_name>$(P)$(M)_JAH_STATUS</pv_name>
+    <x>320</x>
+    <y>564</y>
+    <width>81</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #312</name>
+    <text>Jog after home to (User)</text>
+    <x>2</x>
+    <y>583</y>
+    <width>69</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>text entry #315</name>
+    <pv_name>$(P)$(M)_JAHV_SP</pv_name>
+    <x>175</x>
+    <y>580</y>
+    <width>135</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #319</name>
+    <pv_name>$(P)$(M)_JAHV_MON</pv_name>
+    <x>320</x>
+    <y>581</y>
+    <width>81</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #323</name>
+    <text>User data deadband</text>
+    <x>2</x>
+    <y>602</y>
+    <width>69</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>text entry #326</name>
+    <pv_name>$(P)$(M)_USERDATADEADB_SP</pv_name>
+    <x>175</x>
+    <y>599</y>
+    <width>135</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="115" green="223" blue="255">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #330</name>
+    <text>User data</text>
+    <x>2</x>
+    <y>620</y>
+    <width>97</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #333</name>
+    <pv_name>$(P)$(M)_USERDATA_MON</pv_name>
+    <x>320</x>
+    <y>622</y>
+    <width>58</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #337</name>
+    <text>Servo velocity (cts/s)</text>
+    <x>2</x>
+    <y>639</y>
+    <width>69</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #340</name>
+    <pv_name>$(P)$(M)_VELOCITYRAW_MON</pv_name>
+    <x>320</x>
+    <y>638</y>
+    <width>81</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #344</name>
+    <pv_name>$(P)$(M)_VELOCITYEGU_MON</pv_name>
+    <x>320</x>
+    <y>655</y>
+    <width>81</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #348</name>
+    <text>Servo velocity (EGU/s)</text>
+    <x>2</x>
+    <y>657</y>
+    <width>69</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+</display>

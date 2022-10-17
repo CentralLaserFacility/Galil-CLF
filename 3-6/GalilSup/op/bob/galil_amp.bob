@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>galil_amp</name>
+  <x>299</x>
+  <y>172</y>
+  <width>400</width>
+  <height>142</height>
+  <background_color>
+    <color red="187" green="187" blue="187">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <grid_step_x>5</grid_step_x>
+  <widget type="rectangle" version="2.0.0">
+    <name>rectangle #6</name>
+    <x>92</x>
+    <y>7</y>
+    <width>209</width>
+    <height>25</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="0" blue="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #9</name>
+    <text>Galil amplifier settings</text>
+    <x>99</x>
+    <y>12</y>
+    <width>193</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #12</name>
+    <text>Motor axis</text>
+    <x>8</x>
+    <y>46</y>
+    <width>97</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #15</name>
+    <pv_name>$(P)$(M)_AXIS_STATUS</pv_name>
+    <x>150</x>
+    <y>48</y>
+    <width>58</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #19</name>
+    <pv_name>$(P)$(M).NAME</pv_name>
+    <x>150</x>
+    <y>65</y>
+    <width>200</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #23</name>
+    <text>Motorname</text>
+    <x>8</x>
+    <y>64</y>
+    <width>97</width>
+    <height>13</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>composite #26</name>
+    <x>8</x>
+    <y>81</y>
+    <width>347</width>
+    <height>54</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>text #29</name>
+      <text>Low current mode</text>
+      <y>36</y>
+      <width>69</width>
+      <height>13</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>text entry #32</name>
+      <pv_name>$(P)$(M)_AMPLC_SP</pv_name>
+      <x>142</x>
+      <y>36</y>
+      <height>18</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color red="115" green="223" blue="255">
+        </color>
+      </background_color>
+      <format>1</format>
+      <show_units>false</show_units>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>text update #36</name>
+      <pv_name>$(P)$(M)_AMPLC_MON</pv_name>
+      <x>266</x>
+      <y>40</y>
+      <width>81</width>
+      <height>13</height>
+      <foreground_color>
+        <color red="10" green="0" blue="184">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <format>1</format>
+      <show_units>false</show_units>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>text #40</name>
+      <text>Amplifier gain</text>
+      <width>69</width>
+      <height>13</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="combo" version="2.0.0">
+      <name>menu #43</name>
+      <pv_name>$(P)$(M)_AMPGAIN_CMD</pv_name>
+      <x>142</x>
+      <height>18</height>
+      <background_color>
+        <color red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>text update #46</name>
+      <pv_name>$(P)$(M)_AMPGAIN_STATUS</pv_name>
+      <x>266</x>
+      <y>5</y>
+      <width>81</width>
+      <height>13</height>
+      <foreground_color>
+        <color red="10" green="0" blue="184">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <format>1</format>
+      <show_units>false</show_units>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>text #50</name>
+      <text>Current loop gain</text>
+      <y>17</y>
+      <width>69</width>
+      <height>13</height>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="combo" version="2.0.0">
+      <name>menu #53</name>
+      <pv_name>$(P)$(M)_AMPCLGAIN_CMD</pv_name>
+      <x>142</x>
+      <y>17</y>
+      <height>18</height>
+      <background_color>
+        <color red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>text update #56</name>
+      <pv_name>$(P)$(M)_AMPCLGAIN_STATUS</pv_name>
+      <x>266</x>
+      <y>22</y>
+      <width>81</width>
+      <height>13</height>
+      <foreground_color>
+        <color red="10" green="0" blue="184">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <format>1</format>
+      <show_units>false</show_units>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+  </widget>
+</display>
