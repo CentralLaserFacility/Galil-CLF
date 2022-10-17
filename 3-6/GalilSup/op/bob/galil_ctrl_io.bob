@@ -16,8 +16,8 @@
     <text>Galil I/O</text>
     <x>322</x>
     <y>6</y>
-    <width>256</width>
-    <height>18</height>
+    <width>58</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -29,8 +29,8 @@
     <text>Digital I/O</text>
     <x>384</x>
     <y>20</y>
-    <width>132</width>
-    <height>18</height>
+    <width>71</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -42,8 +42,8 @@
     <text>7</text>
     <x>807</x>
     <y>219</y>
-    <width>10</width>
-    <height>13</height>
+    <width>8</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -51,8 +51,8 @@
     <text>8</text>
     <x>807</x>
     <y>233</y>
-    <width>10</width>
-    <height>13</height>
+    <width>8</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="rectangle" version="2.0.0">
@@ -77,8 +77,8 @@
     <text>Word 0</text>
     <x>9</x>
     <y>223</y>
-    <width>50</width>
-    <height>13</height>
+    <width>46</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -86,8 +86,8 @@
     <text>Description</text>
     <x>9</x>
     <y>275</y>
-    <width>50</width>
-    <height>13</height>
+    <width>71</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="group" version="2.0.0">
@@ -99,35 +99,20 @@
     <style>3</style>
     <transparent>true</transparent>
     <widget type="label" version="2.0.0">
-      <name>text #30</name>
-      <text>DMC</text>
-      <y>15</y>
-      <width>20</width>
-      <height>13</height>
-      <auto_size>true</auto_size>
-    </widget>
-    <widget type="label" version="2.0.0">
       <name>text #33</name>
       <text>1</text>
       <x>24</x>
       <y>15</y>
-      <width>10</width>
-      <height>13</height>
+      <width>8</width>
+      <height>16</height>
       <auto_size>true</auto_size>
     </widget>
     <widget type="label" version="2.0.0">
       <name>text #36</name>
       <text>0</text>
       <x>24</x>
-      <width>10</width>
-      <height>13</height>
-      <auto_size>true</auto_size>
-    </widget>
-    <widget type="label" version="2.0.0">
-      <name>text #39</name>
-      <text>RIO</text>
-      <width>20</width>
-      <height>13</height>
+      <width>8</width>
+      <height>16</height>
       <auto_size>true</auto_size>
     </widget>
   </widget>
@@ -153,8 +138,8 @@
     <text>Inputs</text>
     <x>9</x>
     <y>19</y>
-    <width>132</width>
-    <height>16</height>
+    <width>44</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -302,8 +287,8 @@
     <text>Byte 0</text>
     <x>9</x>
     <y>41</y>
-    <width>50</width>
-    <height>13</height>
+    <width>40</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -311,8 +296,8 @@
     <text>Description</text>
     <x>9</x>
     <y>71</y>
-    <width>50</width>
-    <height>13</height>
+    <width>71</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -320,8 +305,8 @@
     <text>7</text>
     <x>807</x>
     <y>37</y>
-    <width>10</width>
-    <height>13</height>
+    <width>8</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -329,8 +314,8 @@
     <text>8</text>
     <x>807</x>
     <y>51</y>
-    <width>10</width>
-    <height>13</height>
+    <width>8</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="rectangle" version="2.0.0">
@@ -491,8 +476,8 @@
     <text>7</text>
     <x>807</x>
     <y>90</y>
-    <width>10</width>
-    <height>13</height>
+    <width>8</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -500,8 +485,8 @@
     <text>8</text>
     <x>807</x>
     <y>104</y>
-    <width>10</width>
-    <height>13</height>
+    <width>8</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="rectangle" version="2.0.0">
@@ -662,8 +647,8 @@
     <text>7</text>
     <x>807</x>
     <y>142</y>
-    <width>10</width>
-    <height>13</height>
+    <width>8</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -671,8 +656,8 @@
     <text>8</text>
     <x>807</x>
     <y>156</y>
-    <width>10</width>
-    <height>13</height>
+    <width>8</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -680,8 +665,8 @@
     <text>Description</text>
     <x>9</x>
     <y>123</y>
-    <width>50</width>
-    <height>13</height>
+    <width>71</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -689,8 +674,8 @@
     <text>Byte 1</text>
     <x>9</x>
     <y>94</y>
-    <width>50</width>
-    <height>13</height>
+    <width>40</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -698,8 +683,8 @@
     <text>Byte 2</text>
     <x>9</x>
     <y>144</y>
-    <width>50</width>
-    <height>13</height>
+    <width>40</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -707,8 +692,8 @@
     <text>Description</text>
     <x>9</x>
     <y>173</y>
-    <width>50</width>
-    <height>13</height>
+    <width>71</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="group" version="2.0.0">
@@ -720,35 +705,20 @@
     <style>3</style>
     <transparent>true</transparent>
     <widget type="label" version="2.0.0">
-      <name>text #189</name>
-      <text>DMC</text>
-      <y>15</y>
-      <width>20</width>
-      <height>13</height>
-      <auto_size>true</auto_size>
-    </widget>
-    <widget type="label" version="2.0.0">
       <name>text #192</name>
       <text>1</text>
       <x>24</x>
       <y>15</y>
-      <width>10</width>
-      <height>13</height>
+      <width>8</width>
+      <height>16</height>
       <auto_size>true</auto_size>
     </widget>
     <widget type="label" version="2.0.0">
       <name>text #195</name>
       <text>0</text>
       <x>24</x>
-      <width>10</width>
-      <height>13</height>
-      <auto_size>true</auto_size>
-    </widget>
-    <widget type="label" version="2.0.0">
-      <name>text #198</name>
-      <text>RIO</text>
-      <width>20</width>
-      <height>13</height>
+      <width>8</width>
+      <height>16</height>
       <auto_size>true</auto_size>
     </widget>
   </widget>
@@ -761,35 +731,20 @@
     <style>3</style>
     <transparent>true</transparent>
     <widget type="label" version="2.0.0">
-      <name>text #204</name>
-      <text>DMC</text>
-      <y>15</y>
-      <width>20</width>
-      <height>13</height>
-      <auto_size>true</auto_size>
-    </widget>
-    <widget type="label" version="2.0.0">
       <name>text #207</name>
       <text>1</text>
       <x>24</x>
       <y>15</y>
-      <width>10</width>
-      <height>13</height>
+      <width>8</width>
+      <height>16</height>
       <auto_size>true</auto_size>
     </widget>
     <widget type="label" version="2.0.0">
       <name>text #210</name>
       <text>0</text>
       <x>24</x>
-      <width>10</width>
-      <height>13</height>
-      <auto_size>true</auto_size>
-    </widget>
-    <widget type="label" version="2.0.0">
-      <name>text #213</name>
-      <text>RIO</text>
-      <width>20</width>
-      <height>13</height>
+      <width>8</width>
+      <height>16</height>
       <auto_size>true</auto_size>
     </widget>
   </widget>
@@ -802,35 +757,20 @@
     <style>3</style>
     <transparent>true</transparent>
     <widget type="label" version="2.0.0">
-      <name>text #219</name>
-      <text>DMC</text>
-      <y>15</y>
-      <width>20</width>
-      <height>13</height>
-      <auto_size>true</auto_size>
-    </widget>
-    <widget type="label" version="2.0.0">
       <name>text #222</name>
       <text>1</text>
       <x>24</x>
       <y>15</y>
-      <width>10</width>
-      <height>13</height>
+      <width>8</width>
+      <height>16</height>
       <auto_size>true</auto_size>
     </widget>
     <widget type="label" version="2.0.0">
       <name>text #225</name>
       <text>0</text>
       <x>24</x>
-      <width>10</width>
-      <height>13</height>
-      <auto_size>true</auto_size>
-    </widget>
-    <widget type="label" version="2.0.0">
-      <name>text #228</name>
-      <text>RIO</text>
-      <width>20</width>
-      <height>13</height>
+      <width>8</width>
+      <height>16</height>
       <auto_size>true</auto_size>
     </widget>
   </widget>
@@ -2797,8 +2737,8 @@ widget.setPropertyValue('background_color', color)
     <text>Outputs</text>
     <x>9</x>
     <y>195</y>
-    <width>132</width>
-    <height>18</height>
+    <width>57</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -3090,8 +3030,8 @@ widget.setPropertyValue('background_color', color)
     <text>15</text>
     <x>807</x>
     <y>291</y>
-    <width>10</width>
-    <height>13</height>
+    <width>16</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -3099,8 +3039,8 @@ widget.setPropertyValue('background_color', color)
     <text>16</text>
     <x>807</x>
     <y>305</y>
-    <width>10</width>
-    <height>13</height>
+    <width>16</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="rectangle" version="2.0.0">
@@ -3125,8 +3065,8 @@ widget.setPropertyValue('background_color', color)
     <text>Word 0</text>
     <x>9</x>
     <y>301</y>
-    <width>50</width>
-    <height>13</height>
+    <width>46</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -3134,17 +3074,17 @@ widget.setPropertyValue('background_color', color)
     <text>Description</text>
     <x>9</x>
     <y>353</y>
-    <width>50</width>
-    <height>13</height>
+    <width>71</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
     <name>text #638</name>
     <text>DMC</text>
-    <x>83</x>
+    <x>71</x>
     <y>307</y>
-    <width>20</width>
-    <height>13</height>
+    <width>32</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -3152,8 +3092,8 @@ widget.setPropertyValue('background_color', color)
     <text>9</text>
     <x>107</x>
     <y>307</y>
-    <width>10</width>
-    <height>13</height>
+    <width>8</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -3161,17 +3101,17 @@ widget.setPropertyValue('background_color', color)
     <text>8</text>
     <x>107</x>
     <y>292</y>
-    <width>10</width>
-    <height>13</height>
+    <width>8</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
     <name>text #647</name>
     <text>RIO</text>
-    <x>83</x>
+    <x>71</x>
     <y>292</y>
-    <width>20</width>
-    <height>13</height>
+    <width>25</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="choice" version="2.0.0">
@@ -3459,8 +3399,8 @@ widget.setPropertyValue('background_color', color)
     <text>7</text>
     <x>807</x>
     <y>374</y>
-    <width>10</width>
-    <height>13</height>
+    <width>8</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -3468,8 +3408,8 @@ widget.setPropertyValue('background_color', color)
     <text>8</text>
     <x>807</x>
     <y>388</y>
-    <width>10</width>
-    <height>13</height>
+    <width>8</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="rectangle" version="2.0.0">
@@ -3494,8 +3434,8 @@ widget.setPropertyValue('background_color', color)
     <text>Word 1</text>
     <x>9</x>
     <y>379</y>
-    <width>50</width>
-    <height>13</height>
+    <width>46</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -3503,8 +3443,8 @@ widget.setPropertyValue('background_color', color)
     <text>Description</text>
     <x>9</x>
     <y>429</y>
-    <width>50</width>
-    <height>13</height>
+    <width>71</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="group" version="2.0.0">
@@ -3516,35 +3456,20 @@ widget.setPropertyValue('background_color', color)
     <style>3</style>
     <transparent>true</transparent>
     <widget type="label" version="2.0.0">
-      <name>text #724</name>
-      <text>DMC</text>
-      <y>15</y>
-      <width>20</width>
-      <height>13</height>
-      <auto_size>true</auto_size>
-    </widget>
-    <widget type="label" version="2.0.0">
       <name>text #727</name>
       <text>1</text>
       <x>24</x>
       <y>15</y>
-      <width>10</width>
-      <height>13</height>
+      <width>8</width>
+      <height>16</height>
       <auto_size>true</auto_size>
     </widget>
     <widget type="label" version="2.0.0">
       <name>text #730</name>
       <text>0</text>
       <x>24</x>
-      <width>10</width>
-      <height>13</height>
-      <auto_size>true</auto_size>
-    </widget>
-    <widget type="label" version="2.0.0">
-      <name>text #733</name>
-      <text>RIO</text>
-      <width>20</width>
-      <height>13</height>
+      <width>8</width>
+      <height>16</height>
       <auto_size>true</auto_size>
     </widget>
   </widget>
@@ -3868,8 +3793,8 @@ widget.setPropertyValue('background_color', color)
     <text>Input</text>
     <x>118</x>
     <y>471</y>
-    <width>50</width>
-    <height>16</height>
+    <width>36</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -3916,8 +3841,8 @@ widget.setPropertyValue('background_color', color)
     <text>Output</text>
     <x>448</x>
     <y>471</y>
-    <width>50</width>
-    <height>16</height>
+    <width>49</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -3965,8 +3890,8 @@ widget.setPropertyValue('background_color', color)
     <text>Volts</text>
     <x>807</x>
     <y>488</y>
-    <width>35</width>
-    <height>13</height>
+    <width>32</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -3974,8 +3899,8 @@ widget.setPropertyValue('background_color', color)
     <text>Analog I/O</text>
     <x>348</x>
     <y>449</y>
-    <width>216</width>
-    <height>18</height>
+    <width>76</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -3996,8 +3921,8 @@ widget.setPropertyValue('background_color', color)
     <text>RIO Only Readbacks</text>
     <x>735</x>
     <y>470</y>
-    <width>35</width>
-    <height>13</height>
+    <width>132</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="group" version="2.0.0">
@@ -6664,5 +6589,95 @@ widget.setPropertyValue('background_color', color)
         <pv_name>$(P)$(R)0Bo15_STATUS.VAL</pv_name>
       </rule>
     </rules>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #198</name>
+    <text>RIO</text>
+    <x>73</x>
+    <y>37</y>
+    <width>25</width>
+    <height>16</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #189</name>
+    <text>DMC</text>
+    <x>73</x>
+    <y>52</y>
+    <width>32</width>
+    <height>16</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #213</name>
+    <text>RIO</text>
+    <x>73</x>
+    <y>89</y>
+    <width>25</width>
+    <height>16</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #204</name>
+    <text>DMC</text>
+    <x>73</x>
+    <y>104</y>
+    <width>32</width>
+    <height>16</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #228</name>
+    <text>RIO</text>
+    <x>73</x>
+    <y>141</y>
+    <width>25</width>
+    <height>16</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #219</name>
+    <text>DMC</text>
+    <x>73</x>
+    <y>156</y>
+    <width>32</width>
+    <height>16</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #39</name>
+    <text>RIO</text>
+    <x>71</x>
+    <y>212</y>
+    <width>25</width>
+    <height>16</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #30</name>
+    <text>DMC</text>
+    <x>71</x>
+    <y>227</y>
+    <width>32</width>
+    <height>16</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #733</name>
+    <text>RIO</text>
+    <x>71</x>
+    <y>370</y>
+    <width>25</width>
+    <height>16</height>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #724</name>
+    <text>DMC</text>
+    <x>71</x>
+    <y>385</y>
+    <width>32</width>
+    <height>16</height>
+    <auto_size>true</auto_size>
   </widget>
 </display>

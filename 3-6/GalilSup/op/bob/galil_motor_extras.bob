@@ -66,10 +66,6 @@
     <y>102</y>
     <width>135</width>
     <height>20</height>
-    <foreground_color>
-      <color red="115" green="223" blue="255">
-      </color>
-    </foreground_color>
     <background_color>
       <color red="115" green="223" blue="255">
       </color>
@@ -81,8 +77,8 @@
     <text>Motor type</text>
     <x>2</x>
     <y>105</y>
-    <width>97</width>
-    <height>13</height>
+    <width>67</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -90,8 +86,8 @@
     <text>Main encoder</text>
     <x>2</x>
     <y>125</y>
-    <width>97</width>
-    <height>13</height>
+    <width>85</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="combo" version="2.0.0">
@@ -101,10 +97,6 @@
     <y>122</y>
     <width>135</width>
     <height>20</height>
-    <foreground_color>
-      <color red="115" green="223" blue="255">
-      </color>
-    </foreground_color>
     <background_color>
       <color red="115" green="223" blue="255">
       </color>
@@ -156,10 +148,6 @@
     <y>142</y>
     <width>135</width>
     <height>18</height>
-    <foreground_color>
-      <color red="115" green="223" blue="255">
-      </color>
-    </foreground_color>
     <background_color>
       <color red="115" green="223" blue="255">
       </color>
@@ -171,8 +159,8 @@
     <text>Auxiliary encoder</text>
     <x>2</x>
     <y>145</y>
-    <width>97</width>
-    <height>13</height>
+    <width>108</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -180,8 +168,8 @@
     <text>Motor/limits consistent</text>
     <x>2</x>
     <y>88</y>
-    <width>97</width>
-    <height>13</height>
+    <width>139</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -227,8 +215,8 @@
     <text>Motor connected</text>
     <x>2</x>
     <y>70</y>
-    <width>97</width>
-    <height>13</height>
+    <width>105</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -236,8 +224,8 @@
     <text>Motorname</text>
     <x>2</x>
     <y>52</y>
-    <width>97</width>
-    <height>13</height>
+    <width>71</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -245,8 +233,8 @@
     <text>Motor axis</text>
     <x>2</x>
     <y>33</y>
-    <width>97</width>
-    <height>13</height>
+    <width>65</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -292,8 +280,8 @@
     <text>Wrong limit protection</text>
     <x>2</x>
     <y>161</y>
-    <width>89</width>
-    <height>13</height>
+    <width>136</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="choice" version="2.0.0">
@@ -391,8 +379,8 @@
     <text>Motor amplifier</text>
     <x>2</x>
     <y>179</y>
-    <width>89</width>
-    <height>13</height>
+    <width>93</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -436,8 +424,8 @@
     <text>Amp auto on/off</text>
     <x>2</x>
     <y>196</y>
-    <width>69</width>
-    <height>13</height>
+    <width>99</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -483,8 +471,8 @@
     <text>Amp on/brake off delay</text>
     <x>2</x>
     <y>214</y>
-    <width>69</width>
-    <height>13</height>
+    <width>144</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -530,8 +518,8 @@
     <text>Amp off delay</text>
     <x>2</x>
     <y>233</y>
-    <width>69</width>
-    <height>13</height>
+    <width>86</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -577,8 +565,8 @@
     <text>Brake on delay</text>
     <x>2</x>
     <y>251</y>
-    <width>69</width>
-    <height>13</height>
+    <width>94</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -586,8 +574,8 @@
     <text>Motor brake on/off port</text>
     <x>2</x>
     <y>269</y>
-    <width>69</width>
-    <height>13</height>
+    <width>142</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="textentry" version="3.0.0">
@@ -688,8 +676,8 @@
     <text>Motor brake auto on/off</text>
     <x>2</x>
     <y>287</y>
-    <width>69</width>
-    <height>13</height>
+    <width>145</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -697,8 +685,8 @@
     <text>Motor stop delay</text>
     <x>2</x>
     <y>305</y>
-    <width>69</width>
-    <height>13</height>
+    <width>104</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="textentry" version="3.0.0">
@@ -764,10 +752,6 @@
     <y>321</y>
     <width>135</width>
     <height>20</height>
-    <foreground_color>
-      <color red="115" green="223" blue="255">
-      </color>
-    </foreground_color>
     <background_color>
       <color red="115" green="223" blue="255">
       </color>
@@ -779,8 +763,8 @@
     <text>Motor off on error</text>
     <x>2</x>
     <y>324</y>
-    <width>97</width>
-    <height>13</height>
+    <width>109</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -788,7 +772,8 @@
     <text>Error limit (cts)</text>
     <x>2</x>
     <y>343</y>
-    <height>13</height>
+    <width>91</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="textentry" version="3.0.0">
@@ -853,8 +838,8 @@
     <text>Error (cts)</text>
     <x>2</x>
     <y>360</y>
-    <width>97</width>
-    <height>13</height>
+    <width>63</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -862,8 +847,8 @@
     <text>Encoder stall</text>
     <x>2</x>
     <y>378</y>
-    <width>69</width>
-    <height>13</height>
+    <width>81</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -889,8 +874,8 @@
     <text>Encoder stall time (s)</text>
     <x>2</x>
     <y>398</y>
-    <width>69</width>
-    <height>13</height>
+    <width>132</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="textentry" version="3.0.0">
@@ -936,8 +921,8 @@
     <text>Encoder tolerance (cts)</text>
     <x>2</x>
     <y>416</y>
-    <width>69</width>
-    <height>13</height>
+    <width>145</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="textentry" version="3.0.0">
@@ -985,10 +970,6 @@
     <y>489</y>
     <width>135</width>
     <height>20</height>
-    <foreground_color>
-      <color red="115" green="223" blue="255">
-      </color>
-    </foreground_color>
     <background_color>
       <color red="115" green="223" blue="255">
       </color>
@@ -1000,8 +981,8 @@
     <text>Home allowed</text>
     <x>2</x>
     <y>491</y>
-    <width>69</width>
-    <height>13</height>
+    <width>89</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -1028,8 +1009,8 @@
     <text>Step smooth factor</text>
     <x>2</x>
     <y>434</y>
-    <width>89</width>
-    <height>13</height>
+    <width>118</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="textentry" version="3.0.0">
@@ -1075,8 +1056,8 @@
     <text>EGU after limit</text>
     <x>2</x>
     <y>452</y>
-    <width>69</width>
-    <height>13</height>
+    <width>92</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="textentry" version="3.0.0">
@@ -1122,8 +1103,8 @@
     <text>Limit disable</text>
     <x>2</x>
     <y>471</y>
-    <width>69</width>
-    <height>13</height>
+    <width>78</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="combo" version="2.0.0">
@@ -1133,10 +1114,6 @@
     <y>469</y>
     <width>135</width>
     <height>20</height>
-    <foreground_color>
-      <color red="115" green="223" blue="255">
-      </color>
-    </foreground_color>
     <background_color>
       <color red="115" green="223" blue="255">
       </color>
@@ -1167,8 +1144,8 @@
     <text>Use limits as home</text>
     <x>2</x>
     <y>511</y>
-    <width>69</width>
-    <height>13</height>
+    <width>119</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="choice" version="2.0.0">
@@ -1212,8 +1189,8 @@
     <text>Use index during home</text>
     <x>2</x>
     <y>546</y>
-    <width>69</width>
-    <height>13</height>
+    <width>144</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="choice" version="2.0.0">
@@ -1257,8 +1234,8 @@
     <text>Use switch during home</text>
     <x>2</x>
     <y>529</y>
-    <width>69</width>
-    <height>13</height>
+    <width>150</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="choice" version="2.0.0">
@@ -1302,8 +1279,8 @@
     <text>Jog after home</text>
     <x>2</x>
     <y>564</y>
-    <width>69</width>
-    <height>13</height>
+    <width>94</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="choice" version="2.0.0">
@@ -1347,8 +1324,8 @@
     <text>Jog after home to (User)</text>
     <x>2</x>
     <y>583</y>
-    <width>69</width>
-    <height>13</height>
+    <width>152</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="textentry" version="3.0.0">
@@ -1394,8 +1371,8 @@
     <text>User data deadband</text>
     <x>2</x>
     <y>602</y>
-    <width>69</width>
-    <height>13</height>
+    <width>127</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="textentry" version="3.0.0">
@@ -1422,8 +1399,8 @@
     <text>User data</text>
     <x>2</x>
     <y>620</y>
-    <width>97</width>
-    <height>13</height>
+    <width>61</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -1450,8 +1427,8 @@
     <text>Servo velocity (cts/s)</text>
     <x>2</x>
     <y>639</y>
-    <width>69</width>
-    <height>13</height>
+    <width>130</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -1497,8 +1474,8 @@
     <text>Servo velocity (EGU/s)</text>
     <x>2</x>
     <y>657</y>
-    <width>69</width>
-    <height>13</height>
+    <width>142</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
 </display>

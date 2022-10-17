@@ -230,24 +230,6 @@
     <height>13</height>
     <style>3</style>
     <transparent>true</transparent>
-    <widget type="textupdate" version="2.0.0">
-      <name>text update #41</name>
-      <pv_name>$(DMC)ECATCAPABLE_STATUS</pv_name>
-      <x>277</x>
-      <width>81</width>
-      <height>13</height>
-      <foreground_color>
-        <color red="10" green="0" blue="184">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color red="187" green="187" blue="187">
-        </color>
-      </background_color>
-      <format>1</format>
-      <show_units>false</show_units>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-    </widget>
     <widget type="label" version="2.0.0">
       <name>text #45</name>
       <text>EtherCat Capable</text>
@@ -271,24 +253,6 @@
       <height>16</height>
       <auto_size>true</auto_size>
     </widget>
-    <widget type="textupdate" version="2.0.0">
-      <name>text update #54</name>
-      <pv_name>$(DMC)PVTCAPABLE_STATUS</pv_name>
-      <x>277</x>
-      <width>81</width>
-      <height>13</height>
-      <foreground_color>
-        <color red="10" green="0" blue="184">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color red="187" green="187" blue="187">
-        </color>
-      </background_color>
-      <format>1</format>
-      <show_units>false</show_units>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-    </widget>
   </widget>
   <widget type="group" version="2.0.0">
     <name>composite #58</name>
@@ -298,24 +262,6 @@
     <height>13</height>
     <style>3</style>
     <transparent>true</transparent>
-    <widget type="textupdate" version="2.0.0">
-      <name>text update #61</name>
-      <pv_name>$(DMC)BISSCAPABLE_STATUS</pv_name>
-      <x>277</x>
-      <width>81</width>
-      <height>13</height>
-      <foreground_color>
-        <color red="10" green="0" blue="184">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color red="187" green="187" blue="187">
-        </color>
-      </background_color>
-      <format>1</format>
-      <show_units>false</show_units>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-    </widget>
     <widget type="label" version="2.0.0">
       <name>text #65</name>
       <text>BISS Capable</text>
@@ -339,24 +285,6 @@
       <height>16</height>
       <auto_size>true</auto_size>
     </widget>
-    <widget type="textupdate" version="2.0.0">
-      <name>text update #74</name>
-      <pv_name>$(DMC)SSICAPABLE_STATUS</pv_name>
-      <x>277</x>
-      <width>81</width>
-      <height>13</height>
-      <foreground_color>
-        <color red="10" green="0" blue="184">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color red="187" green="187" blue="187">
-        </color>
-      </background_color>
-      <format>1</format>
-      <show_units>false</show_units>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-    </widget>
   </widget>
   <widget type="group" version="2.0.0">
     <name>composite #78</name>
@@ -366,23 +294,6 @@
     <height>14</height>
     <style>3</style>
     <transparent>true</transparent>
-    <widget type="textupdate" version="2.0.0">
-      <name>text update #81</name>
-      <pv_name>$(DMC)START_STATUS</pv_name>
-      <x>277</x>
-      <width>95</width>
-      <height>13</height>
-      <foreground_color>
-        <color red="10" green="0" blue="184">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color red="187" green="187" blue="187">
-        </color>
-      </background_color>
-      <format>1</format>
-      <show_units>false</show_units>
-    </widget>
     <widget type="label" version="2.0.0">
       <name>text #85</name>
       <text>Controller start status</text>
@@ -407,23 +318,6 @@
       <height>16</height>
       <auto_size>true</auto_size>
     </widget>
-    <widget type="textupdate" version="2.0.0">
-      <name>text update #94</name>
-      <pv_name>$(DMC)COMMERR_STATUS</pv_name>
-      <x>277</x>
-      <width>95</width>
-      <height>13</height>
-      <foreground_color>
-        <color red="10" green="0" blue="184">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color red="187" green="187" blue="187">
-        </color>
-      </background_color>
-      <format>1</format>
-      <show_units>false</show_units>
-    </widget>
   </widget>
   <widget type="group" version="2.0.0">
     <name>composite #98</name>
@@ -433,24 +327,6 @@
     <height>13</height>
     <style>3</style>
     <transparent>true</transparent>
-    <widget type="textupdate" version="2.0.0">
-      <name>text update #101</name>
-      <pv_name>$(DMC)ADDRESS_MON</pv_name>
-      <x>277</x>
-      <width>95</width>
-      <height>13</height>
-      <foreground_color>
-        <color red="10" green="0" blue="184">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color red="187" green="187" blue="187">
-        </color>
-      </background_color>
-      <format>1</format>
-      <show_units>false</show_units>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-    </widget>
     <widget type="label" version="2.0.0">
       <name>text #105</name>
       <text>Controller address</text>
@@ -474,24 +350,6 @@
       <height>16</height>
       <auto_size>true</auto_size>
     </widget>
-    <widget type="textupdate" version="2.0.0">
-      <name>text update #114</name>
-      <pv_name>$(DMC)MODEL_MON</pv_name>
-      <x>277</x>
-      <width>120</width>
-      <height>13</height>
-      <foreground_color>
-        <color red="10" green="0" blue="184">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color red="187" green="187" blue="187">
-        </color>
-      </background_color>
-      <format>1</format>
-      <show_units>false</show_units>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-    </widget>
   </widget>
   <widget type="group" version="2.0.0">
     <name>composite #118</name>
@@ -501,24 +359,6 @@
     <height>13</height>
     <style>3</style>
     <transparent>true</transparent>
-    <widget type="textupdate" version="2.0.0">
-      <name>text update #121</name>
-      <pv_name>$(DMC)DRIVER_MON</pv_name>
-      <x>277</x>
-      <width>120</width>
-      <height>13</height>
-      <foreground_color>
-        <color red="10" green="0" blue="184">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color red="187" green="187" blue="187">
-        </color>
-      </background_color>
-      <format>1</format>
-      <show_units>false</show_units>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-    </widget>
     <widget type="label" version="2.0.0">
       <name>text #125</name>
       <text>Driver version</text>
@@ -539,9 +379,9 @@
   <widget type="textupdate" version="2.0.0">
     <name>text update #131</name>
     <pv_name>$(DMC)HOMETYPE_STATUS</pv_name>
-    <x>286</x>
+    <x>277</x>
     <y>220</y>
-    <width>81</width>
+    <width>120</width>
     <height>13</height>
     <foreground_color>
       <color red="10" green="0" blue="184">
@@ -553,6 +393,8 @@
     </background_color>
     <format>1</format>
     <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
   <widget type="group" version="2.0.0">
@@ -1779,15 +1621,17 @@
       <name>text update #337</name>
       <pv_name>$(DMC)ERROR_MON</pv_name>
       <x>7</x>
-      <y>19</y>
+      <y>18</y>
       <width>395</width>
-      <height>13</height>
+      <height>16</height>
       <background_color>
         <color red="212" green="219" blue="157">
         </color>
       </background_color>
       <format>6</format>
       <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
       <border_alarm_sensitive>false</border_alarm_sensitive>
     </widget>
     <widget type="label" version="2.0.0">
@@ -1801,9 +1645,9 @@
     <widget type="textentry" version="3.0.0">
       <name>text entry #344</name>
       <pv_name>$(DMC)SEND_STR_CMD</pv_name>
-      <x>27</x>
+      <x>35</x>
       <y>52</y>
-      <width>372</width>
+      <width>366</width>
       <font>
         <font family="Liberation Sans" style="REGULAR" size="16.0">
         </font>
@@ -1813,21 +1657,6 @@
         </color>
       </background_color>
       <format>1</format>
-      <show_units>false</show_units>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-    </widget>
-    <widget type="textupdate" version="2.0.0">
-      <name>text update #348</name>
-      <pv_name>$(DMC)SEND_STR_MON</pv_name>
-      <x>27</x>
-      <y>72</y>
-      <width>372</width>
-      <height>13</height>
-      <background_color>
-        <color red="212" green="219" blue="157">
-        </color>
-      </background_color>
-      <format>6</format>
       <show_units>false</show_units>
       <border_alarm_sensitive>false</border_alarm_sensitive>
     </widget>
@@ -1880,7 +1709,7 @@
   <widget type="textupdate" version="2.0.0">
     <name>text update #367</name>
     <pv_name>$(DMC)HOMEEDGE_STATUS</pv_name>
-    <x>286</x>
+    <x>277</x>
     <y>238</y>
     <width>120</width>
     <height>13</height>
@@ -1894,6 +1723,8 @@
     </background_color>
     <format>1</format>
     <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
   <widget type="group" version="2.0.0">
@@ -1910,25 +1741,6 @@
       <height>18</height>
       <style>3</style>
       <transparent>true</transparent>
-      <widget type="textupdate" version="2.0.0">
-        <name>text update #377</name>
-        <pv_name>$(DMC)DEFER_STATUS</pv_name>
-        <x>277</x>
-        <y>3</y>
-        <width>81</width>
-        <height>13</height>
-        <foreground_color>
-          <color red="10" green="0" blue="184">
-          </color>
-        </foreground_color>
-        <background_color>
-          <color red="187" green="187" blue="187">
-          </color>
-        </background_color>
-        <format>1</format>
-        <show_units>false</show_units>
-        <border_alarm_sensitive>false</border_alarm_sensitive>
-      </widget>
       <widget type="choice" version="2.0.0">
         <name>choice button #381</name>
         <pv_name>$(DMC)DEFER_CMD</pv_name>
@@ -1981,25 +1793,6 @@
         </background_color>
         <border_alarm_sensitive>false</border_alarm_sensitive>
       </widget>
-      <widget type="textupdate" version="2.0.0">
-        <name>text update #396</name>
-        <pv_name>$(DMC)DEFER_MODE_STATUS</pv_name>
-        <x>277</x>
-        <y>4</y>
-        <width>120</width>
-        <height>13</height>
-        <foreground_color>
-          <color red="10" green="0" blue="184">
-          </color>
-        </foreground_color>
-        <background_color>
-          <color red="187" green="187" blue="187">
-          </color>
-        </background_color>
-        <format>1</format>
-        <show_units>false</show_units>
-        <border_alarm_sensitive>false</border_alarm_sensitive>
-      </widget>
     </widget>
     <widget type="group" version="2.0.0">
       <name>composite #400</name>
@@ -2031,25 +1824,6 @@
           <item>Item 1</item>
           <item>Item 2</item>
         </items>
-      </widget>
-      <widget type="textupdate" version="2.0.0">
-        <name>text update #409</name>
-        <pv_name>$(DMC)COORDSYS_STATUS</pv_name>
-        <x>277</x>
-        <y>4</y>
-        <width>81</width>
-        <height>13</height>
-        <foreground_color>
-          <color red="10" green="0" blue="184">
-          </color>
-        </foreground_color>
-        <background_color>
-          <color red="187" green="187" blue="187">
-          </color>
-        </background_color>
-        <format>1</format>
-        <show_units>false</show_units>
-        <border_alarm_sensitive>false</border_alarm_sensitive>
       </widget>
     </widget>
     <widget type="group" version="2.0.0">
@@ -2083,33 +1857,14 @@
         <height>16</height>
         <auto_size>true</auto_size>
       </widget>
-      <widget type="textupdate" version="2.0.0">
-        <name>text update #422</name>
-        <pv_name>$(DMC)ECATNETWORK_STATUS</pv_name>
-        <x>277</x>
-        <y>4</y>
-        <width>81</width>
-        <height>13</height>
-        <foreground_color>
-          <color red="10" green="0" blue="184">
-          </color>
-        </foreground_color>
-        <background_color>
-          <color red="187" green="187" blue="187">
-          </color>
-        </background_color>
-        <format>1</format>
-        <show_units>false</show_units>
-        <border_alarm_sensitive>false</border_alarm_sensitive>
-      </widget>
     </widget>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #426</name>
     <pv_name>$(DMC)LIMITTYPE_STATUS</pv_name>
-    <x>286</x>
+    <x>277</x>
     <y>201</y>
-    <width>95</width>
+    <width>120</width>
     <height>13</height>
     <foreground_color>
       <color red="10" green="0" blue="184">
@@ -2121,6 +1876,8 @@
     </background_color>
     <format>1</format>
     <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
   <widget type="label" version="2.0.0">
@@ -2156,6 +1913,292 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #348</name>
+    <pv_name>$(DMC)SEND_STR_MON</pv_name>
+    <x>40</x>
+    <y>665</y>
+    <width>366</width>
+    <height>15</height>
+    <background_color>
+      <color red="212" green="219" blue="157">
+      </color>
+    </background_color>
+    <format>6</format>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #377</name>
+    <pv_name>$(DMC)DEFER_STATUS</pv_name>
+    <x>277</x>
+    <y>256</y>
+    <width>120</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #396</name>
+    <pv_name>$(DMC)DEFER_MODE_STATUS</pv_name>
+    <x>277</x>
+    <y>275</y>
+    <width>120</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #409</name>
+    <pv_name>$(DMC)COORDSYS_STATUS</pv_name>
+    <x>277</x>
+    <y>294</y>
+    <width>120</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #422</name>
+    <pv_name>$(DMC)ECATNETWORK_STATUS</pv_name>
+    <x>277</x>
+    <y>311</y>
+    <width>120</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #41</name>
+    <pv_name>$(DMC)ECATCAPABLE_STATUS</pv_name>
+    <x>277</x>
+    <y>183</y>
+    <width>120</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #54</name>
+    <pv_name>$(DMC)PVTCAPABLE_STATUS</pv_name>
+    <x>277</x>
+    <y>165</y>
+    <width>120</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #61</name>
+    <pv_name>$(DMC)BISSCAPABLE_STATUS</pv_name>
+    <x>277</x>
+    <y>147</y>
+    <width>120</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #74</name>
+    <pv_name>$(DMC)SSICAPABLE_STATUS</pv_name>
+    <x>277</x>
+    <y>129</y>
+    <width>120</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #81</name>
+    <pv_name>$(DMC)START_STATUS</pv_name>
+    <x>277</x>
+    <y>110</y>
+    <width>120</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #94</name>
+    <pv_name>$(DMC)COMMERR_STATUS</pv_name>
+    <x>277</x>
+    <y>92</y>
+    <width>120</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #101</name>
+    <pv_name>$(DMC)ADDRESS_MON</pv_name>
+    <x>277</x>
+    <y>74</y>
+    <width>120</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #114</name>
+    <pv_name>$(DMC)MODEL_MON</pv_name>
+    <x>277</x>
+    <y>56</y>
+    <width>120</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #121</name>
+    <pv_name>$(DMC)DRIVER_MON</pv_name>
+    <x>277</x>
+    <y>38</y>
+    <width>120</width>
+    <height>13</height>
+    <foreground_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
 </display>

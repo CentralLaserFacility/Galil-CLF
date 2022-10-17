@@ -105,17 +105,17 @@
     <y>285</y>
     <width>449</width>
     <height>2</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color red="10" green="0" blue="184">
-      </color>
-    </line_color>
     <points>
       <point x="1.0" y="1.0">
       </point>
       <point x="448.0" y="1.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </line_color>
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #29</name>
@@ -131,7 +131,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>2</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -149,7 +149,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>2</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -158,8 +158,8 @@
     <text>Speed</text>
     <x>3</x>
     <y>346</y>
-    <width>73</width>
-    <height>17</height>
+    <width>47</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -171,8 +171,8 @@
     <text>Base Speed</text>
     <x>3</x>
     <y>372</y>
-    <width>80</width>
-    <height>17</height>
+    <width>88</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -184,8 +184,8 @@
     <text>Accel.</text>
     <x>3</x>
     <y>398</y>
-    <width>73</width>
-    <height>17</height>
+    <width>44</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -197,8 +197,8 @@
     <text>Backlash distance</text>
     <x>3</x>
     <y>423</y>
-    <width>177</width>
-    <height>17</height>
+    <width>129</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -210,8 +210,8 @@
     <text>Move Fraction</text>
     <x>3</x>
     <y>449</y>
-    <width>177</width>
-    <height>17</height>
+    <width>102</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -232,7 +232,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>2</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -250,7 +250,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>2</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -268,7 +268,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>2</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -286,7 +286,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>2</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -304,7 +304,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>2</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -322,7 +322,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>2</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -399,7 +399,7 @@
         <color red="115" green="223" blue="255">
         </color>
       </background_color>
-      <format>1</format>
+      <precision>4</precision>
       <show_units>false</show_units>
       <border_alarm_sensitive>false</border_alarm_sensitive>
     </widget>
@@ -447,7 +447,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>2</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -465,7 +465,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>2</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -475,17 +475,17 @@
     <y>225</y>
     <width>449</width>
     <height>2</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color red="10" green="0" blue="184">
-      </color>
-    </line_color>
     <points>
       <point x="1.0" y="1.0">
       </point>
       <point x="448.0" y="1.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </line_color>
   </widget>
   <widget type="rectangle" version="2.0.0">
     <name>rectangle #113</name>
@@ -506,7 +506,8 @@
     <text>Calibration</text>
     <x>4</x>
     <y>227</y>
-    <width>110</width>
+    <width>77</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -519,11 +520,11 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>text #119</name>
-    <text>Maximum Spd</text>
+    <text>Max Spd</text>
     <x>3</x>
     <y>320</y>
-    <width>73</width>
-    <height>17</height>
+    <width>64</width>
+    <height>18</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -593,7 +594,8 @@
     <text>Drive</text>
     <x>4</x>
     <y>31</y>
-    <width>80</width>
+    <width>38</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -734,7 +736,6 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -800,7 +801,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>4</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -949,7 +950,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>4</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -967,7 +968,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>4</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -985,7 +986,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>4</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -1003,7 +1004,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>4</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -1021,7 +1022,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>4</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -1039,7 +1040,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>4</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -1179,7 +1180,7 @@
       <name>text #242</name>
       <text>Tweak</text>
       <y>143</y>
-      <width>75</width>
+      <width>48</width>
       <height>19</height>
       <font>
         <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -1191,8 +1192,8 @@
       <name>text #245</name>
       <text>MoveRel</text>
       <y>116</y>
-      <width>75</width>
-      <height>18</height>
+      <width>64</width>
+      <height>19</height>
       <font>
         <font family="Liberation Sans" style="REGULAR" size="16.0">
         </font>
@@ -1203,8 +1204,8 @@
       <name>text #248</name>
       <text>Lo limit</text>
       <y>82</y>
-      <width>75</width>
-      <height>18</height>
+      <width>51</width>
+      <height>19</height>
       <font>
         <font family="Liberation Sans" style="REGULAR" size="16.0">
         </font>
@@ -1215,8 +1216,8 @@
       <name>text #251</name>
       <text>MoveAbs</text>
       <y>52</y>
-      <width>75</width>
-      <height>18</height>
+      <width>67</width>
+      <height>19</height>
       <font>
         <font family="Liberation Sans" style="REGULAR" size="16.0">
         </font>
@@ -1227,8 +1228,8 @@
       <name>text #254</name>
       <text>Readback</text>
       <y>25</y>
-      <width>75</width>
-      <height>18</height>
+      <width>73</width>
+      <height>19</height>
       <font>
         <font family="Liberation Sans" style="REGULAR" size="16.0">
         </font>
@@ -1238,8 +1239,8 @@
     <widget type="label" version="2.0.0">
       <name>text #257</name>
       <text>Hi limit</text>
-      <width>75</width>
-      <height>18</height>
+      <width>48</width>
+      <height>19</height>
       <font>
         <font family="Liberation Sans" style="REGULAR" size="16.0">
         </font>
@@ -1302,7 +1303,7 @@
   </widget>
   <widget type="rectangle" version="2.0.0">
     <name>rectangle #270</name>
-    <x>81</x>
+    <x>82</x>
     <y>100</y>
     <width>356</width>
     <height>29</height>
@@ -1401,16 +1402,16 @@
     <y>27</y>
     <width>449</width>
     <height>3</height>
-    <line_color>
-      <color red="10" green="0" blue="184">
-      </color>
-    </line_color>
     <points>
       <point x="1.0" y="1.0">
       </point>
       <point x="447.0" y="1.0">
       </point>
     </points>
+    <line_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </line_color>
   </widget>
   <widget type="label" version="2.0.0">
     <name>text #293</name>
@@ -1511,8 +1512,8 @@
   <widget type="label" version="2.0.0">
     <name>text #311</name>
     <text></text>
-    <width>10</width>
-    <height>10</height>
+    <width>0</width>
+    <height>12</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="10.0">
       </font>
@@ -1553,37 +1554,37 @@
     <name>polyline #318</name>
     <x>200</x>
     <y>285</y>
-    <width>0</width>
+    <width>1</width>
     <height>187</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color red="10" green="0" blue="184">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="0.0" y="187.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </line_color>
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>polyline #322</name>
     <x>313</x>
     <y>285</y>
-    <width>0</width>
+    <width>1</width>
     <height>187</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color red="10" green="0" blue="184">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="0.0" y="187.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </line_color>
   </widget>
   <widget type="group" version="2.0.0">
     <name>composite #326</name>
@@ -1597,8 +1598,8 @@
       <name>text #329</name>
       <text>EGU</text>
       <x>2</x>
-      <width>20</width>
-      <height>10</height>
+      <width>22</width>
+      <height>11</height>
       <font>
         <font family="Liberation Sans" style="REGULAR" size="10.0">
         </font>
@@ -1610,8 +1611,8 @@
       <text>sec</text>
       <x>2</x>
       <y>10</y>
-      <width>20</width>
-      <height>10</height>
+      <width>16</width>
+      <height>11</height>
       <font>
         <font family="Liberation Sans" style="REGULAR" size="10.0">
         </font>
@@ -1622,18 +1623,18 @@
       <name>polyline #335</name>
       <y>10</y>
       <width>22</width>
-      <height>0</height>
-      <line_width>1</line_width>
-      <line_color>
-        <color red="0" green="0" blue="0">
-        </color>
-      </line_color>
+      <height>1</height>
       <points>
         <point x="0.0" y="0.0">
         </point>
         <point x="22.0" y="0.0">
         </point>
       </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </line_color>
     </widget>
   </widget>
   <widget type="group" version="2.0.0">
@@ -1648,8 +1649,8 @@
       <name>text #342</name>
       <text>EGU</text>
       <x>2</x>
-      <width>20</width>
-      <height>10</height>
+      <width>22</width>
+      <height>11</height>
       <font>
         <font family="Liberation Sans" style="REGULAR" size="10.0">
         </font>
@@ -1661,8 +1662,8 @@
       <text>sec</text>
       <x>2</x>
       <y>10</y>
-      <width>20</width>
-      <height>10</height>
+      <width>16</width>
+      <height>11</height>
       <font>
         <font family="Liberation Sans" style="REGULAR" size="10.0">
         </font>
@@ -1673,18 +1674,18 @@
       <name>polyline #348</name>
       <y>10</y>
       <width>22</width>
-      <height>0</height>
-      <line_width>1</line_width>
-      <line_color>
-        <color red="0" green="0" blue="0">
-        </color>
-      </line_color>
+      <height>1</height>
       <points>
         <point x="0.0" y="0.0">
         </point>
         <point x="22.0" y="0.0">
         </point>
       </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </line_color>
     </widget>
   </widget>
   <widget type="group" version="2.0.0">
@@ -1699,8 +1700,8 @@
       <name>text #355</name>
       <text>EGU</text>
       <x>2</x>
-      <width>20</width>
-      <height>10</height>
+      <width>22</width>
+      <height>11</height>
       <font>
         <font family="Liberation Sans" style="REGULAR" size="10.0">
         </font>
@@ -1712,8 +1713,8 @@
       <text>sec</text>
       <x>2</x>
       <y>10</y>
-      <width>20</width>
-      <height>10</height>
+      <width>16</width>
+      <height>11</height>
       <font>
         <font family="Liberation Sans" style="REGULAR" size="10.0">
         </font>
@@ -1724,18 +1725,18 @@
       <name>polyline #361</name>
       <y>10</y>
       <width>22</width>
-      <height>0</height>
-      <line_width>1</line_width>
-      <line_color>
-        <color red="0" green="0" blue="0">
-        </color>
-      </line_color>
+      <height>1</height>
       <points>
         <point x="0.0" y="0.0">
         </point>
         <point x="22.0" y="0.0">
         </point>
       </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </line_color>
     </widget>
   </widget>
   <widget type="label" version="2.0.0">
@@ -1743,8 +1744,8 @@
     <text>EGU</text>
     <x>424</x>
     <y>425</y>
-    <width>20</width>
-    <height>12</height>
+    <width>27</width>
+    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="12.0">
       </font>
@@ -1755,9 +1756,9 @@
     <name>text #368</name>
     <text>sec</text>
     <x>58</x>
-    <y>401</y>
-    <width>20</width>
-    <height>13</height>
+    <y>398</y>
+    <width>22</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -1765,8 +1766,8 @@
     <text>EGU:</text>
     <x>321</x>
     <y>7</y>
-    <width>20</width>
-    <height>13</height>
+    <width>35</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="group" version="2.0.0">
@@ -1781,8 +1782,8 @@
       <name>text #377</name>
       <text>EGU</text>
       <x>5</x>
-      <width>20</width>
-      <height>10</height>
+      <width>22</width>
+      <height>11</height>
       <font>
         <font family="Liberation Sans" style="REGULAR" size="10.0">
         </font>
@@ -1793,8 +1794,8 @@
       <name>text #380</name>
       <text>sec^2</text>
       <y>12</y>
-      <width>28</width>
-      <height>10</height>
+      <width>26</width>
+      <height>11</height>
       <font>
         <font family="Liberation Sans" style="REGULAR" size="10.0">
         </font>
@@ -1806,18 +1807,18 @@
       <x>3</x>
       <y>10</y>
       <width>22</width>
-      <height>0</height>
-      <line_width>1</line_width>
-      <line_color>
-        <color red="0" green="0" blue="0">
-        </color>
-      </line_color>
+      <height>1</height>
       <points>
         <point x="0.0" y="0.0">
         </point>
         <point x="22.0" y="0.0">
         </point>
       </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </line_color>
     </widget>
   </widget>
   <widget type="rectangle" version="2.0.0">
@@ -1876,17 +1877,17 @@
     <y>528</y>
     <width>3</width>
     <height>346</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color red="10" green="0" blue="184">
-      </color>
-    </line_color>
     <points>
       <point x="2.0" y="1.0">
       </point>
       <point x="1.0" y="345.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </line_color>
   </widget>
   <widget type="rectangle" version="2.0.0">
     <name>rectangle #399</name>
@@ -1907,8 +1908,8 @@
     <text>Motor resolution</text>
     <x>3</x>
     <y>561</y>
-    <width>130</width>
-    <height>18</height>
+    <width>115</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -1920,8 +1921,8 @@
     <text>Encoder res.</text>
     <x>3</x>
     <y>586</y>
-    <width>130</width>
-    <height>18</height>
+    <width>91</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -1933,8 +1934,8 @@
     <text>Readback res.</text>
     <x>3</x>
     <y>611</y>
-    <width>130</width>
-    <height>18</height>
+    <width>104</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -1946,8 +1947,8 @@
     <text>Retry deadband</text>
     <x>3</x>
     <y>636</y>
-    <width>130</width>
-    <height>18</height>
+    <width>114</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -1959,8 +1960,8 @@
     <text>Retries</text>
     <x>3</x>
     <y>661</y>
-    <width>60</width>
-    <height>18</height>
+    <width>51</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -1972,8 +1973,8 @@
     <text>Use Encoder</text>
     <x>3</x>
     <y>686</y>
-    <width>130</width>
-    <height>18</height>
+    <width>93</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -1985,8 +1986,8 @@
     <text>Readback Delay</text>
     <x>3</x>
     <y>736</y>
-    <width>130</width>
-    <height>18</height>
+    <width>118</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -1999,7 +2000,7 @@
     <x>3</x>
     <y>761</y>
     <width>80</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2021,7 +2022,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>6</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -2040,7 +2041,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>6</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -2059,7 +2060,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>6</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -2078,7 +2079,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>0</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -2087,8 +2088,8 @@
     <text>max:</text>
     <x>129</x>
     <y>661</y>
-    <width>44</width>
-    <height>18</height>
+    <width>35</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2123,8 +2124,8 @@
     <text>CurrDir</text>
     <x>268</x>
     <y>578</y>
-    <width>73</width>
-    <height>18</height>
+    <width>52</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2151,6 +2152,8 @@
     </background_color>
     <format>1</format>
     <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
   <widget type="label" version="2.0.0">
@@ -2158,8 +2161,8 @@
     <text>Moving</text>
     <x>268</x>
     <y>598</y>
-    <width>73</width>
-    <height>18</height>
+    <width>52</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2186,6 +2189,8 @@
     </background_color>
     <format>1</format>
     <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -2215,8 +2220,8 @@
     <text>State  0x</text>
     <x>268</x>
     <y>558</y>
-    <width>73</width>
-    <height>18</height>
+    <width>64</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2228,8 +2233,8 @@
     <text>At Home</text>
     <x>268</x>
     <y>618</y>
-    <width>73</width>
-    <height>18</height>
+    <width>63</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2241,8 +2246,8 @@
     <text>Encoder</text>
     <x>268</x>
     <y>658</y>
-    <width>73</width>
-    <height>18</height>
+    <width>60</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2254,8 +2259,8 @@
     <text>MotorPos</text>
     <x>268</x>
     <y>638</y>
-    <width>73</width>
-    <height>18</height>
+    <width>69</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2267,8 +2272,8 @@
     <text>MIP    0x</text>
     <x>268</x>
     <y>678</y>
-    <width>73</width>
-    <height>18</height>
+    <width>64</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2293,8 +2298,10 @@
       <color red="200" green="200" blue="200">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>4</precision>
     <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
   <widget type="label" version="2.0.0">
@@ -2302,8 +2309,8 @@
     <text>Err</text>
     <x>267</x>
     <y>698</y>
-    <width>73</width>
-    <height>18</height>
+    <width>22</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2330,6 +2337,8 @@
     </background_color>
     <format>1</format>
     <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -2352,6 +2361,8 @@
     </background_color>
     <format>1</format>
     <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -2374,6 +2385,8 @@
     </background_color>
     <format>1</format>
     <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -2396,6 +2409,8 @@
     </background_color>
     <format>4</format>
     <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
   <widget type="choice" version="2.0.0">
@@ -2447,7 +2462,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>6</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -2456,8 +2471,8 @@
     <text>VME Card#</text>
     <x>267</x>
     <y>738</y>
-    <width>73</width>
-    <height>18</height>
+    <width>83</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2484,6 +2499,8 @@
     </background_color>
     <format>1</format>
     <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
   <widget type="label" version="2.0.0">
@@ -2491,8 +2508,8 @@
     <text>Version</text>
     <x>267</x>
     <y>718</y>
-    <width>73</width>
-    <height>18</height>
+    <width>55</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2512,7 +2529,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>0</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -2521,8 +2538,8 @@
     <text>Precision</text>
     <x>267</x>
     <y>761</y>
-    <width>73</width>
-    <height>18</height>
+    <width>66</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2549,6 +2566,8 @@
     </background_color>
     <format>1</format>
     <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
   <widget type="textentry" version="3.0.0">
@@ -2566,7 +2585,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>2</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -2594,8 +2613,8 @@
     <text>Torque</text>
     <x>267</x>
     <y>783</y>
-    <width>50</width>
-    <height>18</height>
+    <width>51</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2624,8 +2643,8 @@
     <text>Use Readback</text>
     <x>3</x>
     <y>711</y>
-    <width>130</width>
-    <height>18</height>
+    <width>105</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2635,7 +2654,6 @@
   <widget type="label" version="2.0.0">
     <name>text #553</name>
     <text>Resolution</text>
-    <x>-1</x>
     <y>532</y>
     <width>110</width>
     <font>
@@ -2657,23 +2675,11 @@
     <style>3</style>
     <transparent>true</transparent>
     <widget type="label" version="2.0.0">
-      <name>text #559</name>
-      <text>EGU</text>
-      <x>3</x>
-      <width>20</width>
-      <height>10</height>
-      <font>
-        <font family="Liberation Sans" style="REGULAR" size="10.0">
-        </font>
-      </font>
-      <auto_size>true</auto_size>
-    </widget>
-    <widget type="label" version="2.0.0">
       <name>text #562</name>
       <text>step</text>
       <y>10</y>
-      <width>20</width>
-      <height>10</height>
+      <width>19</width>
+      <height>11</height>
       <font>
         <font family="Liberation Sans" style="REGULAR" size="10.0">
         </font>
@@ -2685,18 +2691,30 @@
       <x>1</x>
       <y>10</y>
       <width>22</width>
-      <height>0</height>
-      <line_width>1</line_width>
-      <line_color>
-        <color red="0" green="0" blue="0">
-        </color>
-      </line_color>
+      <height>1</height>
       <points>
         <point x="0.0" y="0.0">
         </point>
         <point x="22.0" y="0.0">
         </point>
       </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </line_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>text #559</name>
+      <text>EGU</text>
+      <x>1</x>
+      <width>22</width>
+      <height>11</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="10.0">
+        </font>
+      </font>
+      <auto_size>true</auto_size>
     </widget>
   </widget>
   <widget type="group" version="2.0.0">
@@ -2708,23 +2726,11 @@
     <style>3</style>
     <transparent>true</transparent>
     <widget type="label" version="2.0.0">
-      <name>text #572</name>
-      <text>EGU</text>
-      <x>3</x>
-      <width>20</width>
-      <height>10</height>
-      <font>
-        <font family="Liberation Sans" style="REGULAR" size="10.0">
-        </font>
-      </font>
-      <auto_size>true</auto_size>
-    </widget>
-    <widget type="label" version="2.0.0">
       <name>text #575</name>
       <text>step</text>
       <y>10</y>
-      <width>20</width>
-      <height>10</height>
+      <width>19</width>
+      <height>11</height>
       <font>
         <font family="Liberation Sans" style="REGULAR" size="10.0">
         </font>
@@ -2736,18 +2742,30 @@
       <x>1</x>
       <y>10</y>
       <width>22</width>
-      <height>0</height>
-      <line_width>1</line_width>
-      <line_color>
-        <color red="0" green="0" blue="0">
-        </color>
-      </line_color>
+      <height>1</height>
       <points>
         <point x="0.0" y="0.0">
         </point>
         <point x="22.0" y="0.0">
         </point>
       </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </line_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>text #572</name>
+      <text>EGU</text>
+      <x>1</x>
+      <width>22</width>
+      <height>11</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="10.0">
+        </font>
+      </font>
+      <auto_size>true</auto_size>
     </widget>
   </widget>
   <widget type="group" version="2.0.0">
@@ -2759,23 +2777,11 @@
     <style>3</style>
     <transparent>true</transparent>
     <widget type="label" version="2.0.0">
-      <name>text #585</name>
-      <text>EGU</text>
-      <x>3</x>
-      <width>20</width>
-      <height>10</height>
-      <font>
-        <font family="Liberation Sans" style="REGULAR" size="10.0">
-        </font>
-      </font>
-      <auto_size>true</auto_size>
-    </widget>
-    <widget type="label" version="2.0.0">
       <name>text #588</name>
       <text>step</text>
       <y>10</y>
-      <width>20</width>
-      <height>10</height>
+      <width>19</width>
+      <height>11</height>
       <font>
         <font family="Liberation Sans" style="REGULAR" size="10.0">
         </font>
@@ -2787,18 +2793,30 @@
       <x>1</x>
       <y>10</y>
       <width>22</width>
-      <height>0</height>
-      <line_width>1</line_width>
-      <line_color>
-        <color red="0" green="0" blue="0">
-        </color>
-      </line_color>
+      <height>1</height>
       <points>
         <point x="0.0" y="0.0">
         </point>
         <point x="22.0" y="0.0">
         </point>
       </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="0" green="0" blue="0">
+        </color>
+      </line_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>text #585</name>
+      <text>EGU</text>
+      <x>1</x>
+      <width>22</width>
+      <height>11</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="10.0">
+        </font>
+      </font>
+      <auto_size>true</auto_size>
     </widget>
   </widget>
   <widget type="label" version="2.0.0">
@@ -2806,8 +2824,8 @@
     <text>EGU</text>
     <x>232</x>
     <y>639</y>
-    <width>20</width>
-    <height>13</height>
+    <width>31</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
@@ -2815,8 +2833,8 @@
     <text>sec</text>
     <x>232</x>
     <y>739</y>
-    <width>20</width>
-    <height>13</height>
+    <width>22</width>
+    <height>16</height>
     <auto_size>true</auto_size>
   </widget>
   <widget type="action_button" version="3.0.0">
@@ -2854,10 +2872,6 @@
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
     </font>
-    <foreground_color>
-      <color red="158" green="158" blue="158">
-      </color>
-    </foreground_color>
     <background_color>
       <color red="200" green="200" blue="200">
       </color>
@@ -2894,8 +2908,8 @@
     <widget type="label" version="2.0.0">
       <name>text #615</name>
       <text>FWD</text>
-      <width>30</width>
-      <height>10</height>
+      <width>23</width>
+      <height>11</height>
       <font>
         <font family="Liberation Sans" style="REGULAR" size="10.0">
         </font>
@@ -2906,8 +2920,8 @@
       <name>text #618</name>
       <text>LINK</text>
       <y>10</y>
-      <width>30</width>
-      <height>10</height>
+      <width>23</width>
+      <height>11</height>
       <font>
         <font family="Liberation Sans" style="REGULAR" size="10.0">
         </font>
@@ -2920,17 +2934,17 @@
     <y>529</y>
     <width>449</width>
     <height>2</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color red="10" green="0" blue="184">
-      </color>
-    </line_color>
     <points>
       <point x="1.0" y="1.0">
       </point>
       <point x="448.0" y="1.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </line_color>
   </widget>
   <widget type="rectangle" version="2.0.0">
     <name>rectangle #625</name>
@@ -2952,17 +2966,17 @@
     <y>473</y>
     <width>449</width>
     <height>2</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color red="10" green="0" blue="184">
-      </color>
-    </line_color>
     <points>
       <point x="1.0" y="1.0">
       </point>
       <point x="448.0" y="1.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </line_color>
   </widget>
   <widget type="label" version="2.0.0">
     <name>text #632</name>
@@ -3020,37 +3034,37 @@
     <name>polyline #644</name>
     <x>200</x>
     <y>473</y>
-    <width>0</width>
+    <width>1</width>
     <height>55</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color red="10" green="0" blue="184">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="0.0" y="55.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </line_color>
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>polyline #648</name>
     <x>313</x>
     <y>473</y>
-    <width>0</width>
+    <width>1</width>
     <height>55</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color red="10" green="0" blue="184">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="0.0" y="55.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </line_color>
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #652</name>
@@ -3066,7 +3080,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>1</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -3084,7 +3098,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>1</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -3102,7 +3116,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>1</format>
+    <precision>1</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -3126,25 +3140,25 @@
     <y>842</y>
     <width>260</width>
     <height>3</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color red="10" green="0" blue="184">
-      </color>
-    </line_color>
     <points>
       <point x="1.0" y="2.0">
       </point>
       <point x="259.0" y="1.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="10" green="0" blue="184">
+      </color>
+    </line_color>
   </widget>
   <widget type="label" version="2.0.0">
     <name>text #671</name>
     <text>Pre-move string</text>
     <x>3</x>
     <y>786</y>
-    <width>130</width>
-    <height>18</height>
+    <width>113</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -3166,7 +3180,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>6</format>
+    <precision>2</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -3175,8 +3189,8 @@
     <text>Post-move string</text>
     <x>3</x>
     <y>811</y>
-    <width>130</width>
-    <height>18</height>
+    <width>121</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -3198,7 +3212,7 @@
       <color red="115" green="223" blue="255">
       </color>
     </background_color>
-    <format>6</format>
+    <precision>2</precision>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
@@ -3224,6 +3238,7 @@
       <color red="200" green="200" blue="200">
       </color>
     </background_color>
+    <tooltip>$(actions)</tooltip>
   </widget>
   <widget type="label" version="2.0.0">
     <name>text #688</name>
@@ -3319,6 +3334,7 @@
       <color red="51" green="153" blue="0">
       </color>
     </background_color>
+    <tooltip>$(actions)</tooltip>
   </widget>
   <widget type="action_button" version="3.0.0">
     <name>message button #703</name>
@@ -3440,8 +3456,8 @@
   </widget>
   <widget type="rectangle" version="2.0.0">
     <name>rectangle #721</name>
-    <x>80</x>
-    <y>99</y>
+    <x>81</x>
+    <y>100</y>
     <width>210</width>
     <height>31</height>
     <line_width>2</line_width>
