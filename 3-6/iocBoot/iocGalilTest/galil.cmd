@@ -50,10 +50,10 @@ dbLoadTemplate("$(TOP)/GalilTestApp/Db/galil_profileMoveAxis.substitutions")
 #                       	- Specify negative updatePeriod < 0 to force synchronous tcp poll period.  Otherwise will try async udp mode first
 
 # Create a Galil controller
-GalilCreateController("Galil", "192.168.0.67", 8)
+GalilCreateController("Galil", "169.254.101.116", 8)
 
 # Create a Galil controller
-GalilCreateController("RIO", "192.168.0.110", 2)
+#GalilCreateController("RIO", "192.168.0.110", 2)
 
 # GalilCreateAxis command parameters are:
 #
@@ -64,13 +64,13 @@ GalilCreateController("RIO", "192.168.0.110", 2)
 
 # Create the axis
 GalilCreateAxis("Galil","A","",1)
-GalilCreateAxis("Galil","B","",1)
-GalilCreateAxis("Galil","C","",1)
-GalilCreateAxis("Galil","D","",1)
-GalilCreateAxis("Galil","E","",1)
-GalilCreateAxis("Galil","F","",1)
-GalilCreateAxis("Galil","G","",1)
-GalilCreateAxis("Galil","H","",1)
+#GalilCreateAxis("Galil","B","",1)
+#GalilCreateAxis("Galil","C","",1)
+#GalilCreateAxis("Galil","D","",1)
+#GalilCreateAxis("Galil","E","",1)
+#GalilCreateAxis("Galil","F","",1)
+#GalilCreateAxis("Galil","G","",1)
+#GalilCreateAxis("Galil","H","",1)
 
 # GalilAddCode command parameters are:
 # Add custom code to generated code
@@ -111,10 +111,10 @@ GalilStartController("Galil", "", 1, 0)
 
 # Start the controller
 # Example using homing routine template assembly
-#GalilStartController("Galil", "$(GALIL)/GalilSup/Db/galil_Default_Header.dmc;$(GALIL)/GalilSup/Db/galil_Home_RevLimit.dmc!$(GALIL)/GalilSup/Db/galil_Home_ForwLimit.dmc!$(GALIL)/GalilSup/Db/galil_Home_Home.dmc!$(GALIL)/GalilSup/Db/galil_Home_ForwLimit.dmc!$(GALIL)/GalilSup/Db/galil_Piezo_Home.dmc!$(GALIL)/GalilSup/Db/galil_Piezo_Home.dmc!$(GALIL)/GalilSup/Db/galil_Piezo_Home.dmc!$(GALIL)/GalilSup/Db/galil_Piezo_Home.dmc;$(GALIL)/GalilSup/Db/galil_Default_Footer.dmc", 0, 0, 3)
+GalilStartController("Galil", "$(GALIL)/GalilSup/Db/galil_Default_Header.dmc;$(GALIL)/GalilSup/Db/galil_Home_RevLimit.dmc!$(GALIL)/GalilSup/Db/galil_Home_ForwLimit.dmc!$(GALIL)/GalilSup/Db/galil_Home_Home.dmc!$(GALIL)/GalilSup/Db/galil_Home_ForwLimit.dmc!$(GALIL)/GalilSup/Db/galil_Piezo_Home.dmc!$(GALIL)/GalilSup/Db/galil_Piezo_Home.dmc!$(GALIL)/GalilSup/Db/galil_Piezo_Home.dmc!$(GALIL)/GalilSup/Db/galil_Piezo_Home.dmc;$(GALIL)/GalilSup/Db/galil_Default_Footer.dmc", 0, 0, 3)
 
 # Start the controller
-GalilStartController("RIO", "", 1, 0)
+#GalilStartController("RIO", "", 1, 0)
 
 # GalilCreateProfile command parameters are:
 #
